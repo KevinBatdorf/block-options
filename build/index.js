@@ -9098,14 +9098,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
 /* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lodash */ "lodash");
@@ -9119,14 +9119,6 @@ var _defaults_fonts__WEBPACK_IMPORTED_MODULE_14___namespace = /*#__PURE__*/__web
 var _defaults_google_fonts__WEBPACK_IMPORTED_MODULE_15___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../defaults/google-fonts */ "./src/add-ons/typography/src/defaults/google-fonts.json", 1);
 /* harmony import */ var _components_dropdown_menu__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/dropdown-menu */ "./src/add-ons/typography/src/components/font-selection/components/dropdown-menu.js");
 /* harmony import */ var _heading_level_icon__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./heading-level-icon */ "./src/add-ons/typography/src/components/font-selection/heading-level-icon.js");
-/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
-/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @wordpress/compose */ "@wordpress/compose");
-/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_wordpress_compose__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__);
 
 
 
@@ -9138,36 +9130,6 @@ var _defaults_google_fonts__WEBPACK_IMPORTED_MODULE_15___namespace = /*#__PURE__
 
 
 
-
-function _createSuper(Derived) {
-  function isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-
-    try {
-      Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-
-  return function () {
-    var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9___default()(Derived),
-        result;
-
-    if (isNativeReflectConstruct()) {
-      var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9___default()(this).constructor;
-
-      result = Reflect.construct(Super, arguments, NewTarget);
-    } else {
-      result = Super.apply(this, arguments);
-    }
-
-    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8___default()(this, result);
-  };
-}
 
 /**
  * External dependencies
@@ -9187,11 +9149,25 @@ function _createSuper(Derived) {
  * WordPress dependencies
  */
 
-
-
-
-
-
+var _wp$i18n = wp.i18n,
+    __ = _wp$i18n.__,
+    sprintf = _wp$i18n.sprintf;
+var compose = wp.compose.compose;
+var _wp$data = wp.data,
+    withSelect = _wp$data.withSelect,
+    withDispatch = _wp$data.withDispatch;
+var _wp$element = wp.element,
+    Fragment = _wp$element.Fragment,
+    Component = _wp$element.Component;
+var _wp$components = wp.components,
+    withSpokenMessages = _wp$components.withSpokenMessages,
+    Button = _wp$components.Button,
+    TextControl = _wp$components.TextControl,
+    PanelBody = _wp$components.PanelBody,
+    SelectControl = _wp$components.SelectControl,
+    TabPanel = _wp$components.TabPanel,
+    CheckboxControl = _wp$components.CheckboxControl,
+    Modal = _wp$components.Modal;
 /**
  * Get settings.
  */
@@ -9216,25 +9192,23 @@ link.rel = 'stylesheet';
 var TypographySelection =
 /*#__PURE__*/
 function (_Component) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7___default()(TypographySelection, _Component);
-
-  var _super = _createSuper(TypographySelection);
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9___default()(TypographySelection, _Component);
 
   function TypographySelection() {
     var _this;
 
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4___default()(this, TypographySelection);
 
-    _this = _super.apply(this, arguments);
-    _this.onToggle = _this.onToggle.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.onDelete = _this.onDelete.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.onSetDefault = _this.onSetDefault.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.createMeta = _this.createMeta.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.createCSS = _this.createCSS.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.setVariables = _this.setVariables.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.saveMeta = _this.saveMeta.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.updateState = _this.updateState.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
-    _this.getValue = _this.getValue.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this));
+    _this = _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7___default()(TypographySelection).apply(this, arguments));
+    _this.onToggle = _this.onToggle.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.onDelete = _this.onDelete.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.onSetDefault = _this.onSetDefault.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.createMeta = _this.createMeta.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.createCSS = _this.createCSS.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.setVariables = _this.setVariables.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.saveMeta = _this.saveMeta.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.updateState = _this.updateState.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.getValue = _this.getValue.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
     _this.state = {
       isAddingCustom: false,
       isActiveFont: '',
@@ -9603,7 +9577,7 @@ function (_Component) {
 
         settings.fetch();
       });
-      noticeMessage(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Item successfully deleted.', 'editorskit-typography-addon'));
+      noticeMessage(__('Item successfully deleted.', 'editorskit-typography-addon'));
     }
   }, {
     key: "onSetDefault",
@@ -9646,7 +9620,7 @@ function (_Component) {
 
         settings.fetch();
       });
-      noticeMessage(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Default Typography Successfully Set.', 'editorskit-typography-addon'));
+      noticeMessage(__('Default Typography Successfully Set.', 'editorskit-typography-addon'));
     }
   }, {
     key: "render",
@@ -9661,9 +9635,9 @@ function (_Component) {
       var currentMetaId = '';
 
       if (!this.state.optionsFetched) {
-        return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["Fragment"], null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", {
+        return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", {
           className: "ek-fetching-typography"
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Fetching Typography Data.....', 'editorskit-typography-addon')));
+        }, __('Fetching Typography Data.....', 'editorskit-typography-addon')));
       }
 
       if (typeof postmeta !== 'undefined') {
@@ -9687,19 +9661,19 @@ function (_Component) {
 
       var selectOptions = function selectOptions() {
         return [{
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Select Google Font', 'editorskit-typography-addon'),
+          label: __('Select Google Font', 'editorskit-typography-addon'),
           value: ''
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Arial', 'editorskit-typography-addon'),
+          label: __('Arial', 'editorskit-typography-addon'),
           value: 'Arial'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Helvetica', 'editorskit-typography-addon'),
+          label: __('Helvetica', 'editorskit-typography-addon'),
           value: 'Helvetica'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Times New Roman', 'editorskit-typography-addon'),
+          label: __('Times New Roman', 'editorskit-typography-addon'),
           value: 'Times New Roman'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Georgia', 'editorskit-typography-addon'),
+          label: __('Georgia', 'editorskit-typography-addon'),
           value: 'Georgia'
         }].concat(_babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_2___default()(_defaults_google_fonts__WEBPACK_IMPORTED_MODULE_15__.fonts.map(function (_ref) {
           var name = _ref.name;
@@ -9716,25 +9690,25 @@ function (_Component) {
 
       var transformOptions = function transformOptions() {
         return [{
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Select Text Transform', 'editorskit-typography-addon'),
+          label: __('Select Text Transform', 'editorskit-typography-addon'),
           value: ''
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('None', 'editorskit-typography-addon'),
+          label: __('None', 'editorskit-typography-addon'),
           value: 'none'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Capitalize', 'editorskit-typography-addon'),
+          label: __('Capitalize', 'editorskit-typography-addon'),
           value: 'capitalize'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Uppercase', 'editorskit-typography-addon'),
+          label: __('Uppercase', 'editorskit-typography-addon'),
           value: 'uppercase'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Lowercase', 'editorskit-typography-addon'),
+          label: __('Lowercase', 'editorskit-typography-addon'),
           value: 'lowercase'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Initial', 'editorskit-typography-addon'),
+          label: __('Initial', 'editorskit-typography-addon'),
           value: 'initial'
         }, {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Inherit', 'editorskit-typography-addon'),
+          label: __('Inherit', 'editorskit-typography-addon'),
           value: 'inherit'
         }];
       };
@@ -9742,7 +9716,7 @@ function (_Component) {
       var fontWeightOptions = function fontWeightOptions(fontName) {
         var googleFontWeights = Object(lodash__WEBPACK_IMPORTED_MODULE_11__["find"])(_defaults_google_fonts__WEBPACK_IMPORTED_MODULE_15__.fonts, ['name', fontName]);
         var fontWeights = [{
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Select Font Weight', 'editorskit-typography-addon'),
+          label: __('Select Font Weight', 'editorskit-typography-addon'),
           value: ''
         }];
 
@@ -9761,7 +9735,7 @@ function (_Component) {
       };
 
       if (!isAddingCustom) {
-        return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["Fragment"], null, !settingsPanel ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, !settingsPanel ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isPrimary: true,
           isLarge: true,
           className: "editorskit-typography--custom-button",
@@ -9784,9 +9758,9 @@ function (_Component) {
               }
             });
           }
-        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("span", null, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Create Custom Combination', 'editorskit-typography-addon'))) : null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["TextControl"], {
+        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("span", null, __('Create Custom Combination', 'editorskit-typography-addon'))) : null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(TextControl, {
           className: "editorskit-typography-search",
-          placeholder: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Search', 'editorskit-typography-addon'),
+          placeholder: __('Search', 'editorskit-typography-addon'),
           onChange: function onChange(keyword) {
             _this5.setState({
               searchKeyword: keyword.toLowerCase()
@@ -9804,7 +9778,7 @@ function (_Component) {
 
           return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("li", {
             className: classnames__WEBPACK_IMPORTED_MODULE_12___default()('editorskit-typography--item', 'editorskit-typography--item__custom', parseInt(id) === parseInt(currentMetaId) || !currentMetaId && customKey === id ? 'editorskit-typography--item__current' : null)
-          }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+          }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
             onClick: function onClick() {
               if (id === currentMetaId || !currentMetaId && customKey === id) {
                 removeFontSelection();
@@ -9844,7 +9818,7 @@ function (_Component) {
 
           return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("li", {
             className: classnames__WEBPACK_IMPORTED_MODULE_12___default()('editorskit-typography--item', 'editorskit-typography--item__default', 'editorskit-typography--item-' + i, i === currentMetaId ? 'editorskit-typography--item__current' : null)
-          }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+          }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
             onClick: function onClick() {
               if (settingsPanel) {
                 return;
@@ -9877,63 +9851,63 @@ function (_Component) {
             currentMetaId: currentMetaId,
             saveMeta: _this5.saveMeta
           })));
-        }))), isDeleting && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Modal"], {
+        }))), isDeleting && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Modal, {
           className: "editorskit-delete-typography-modal",
-          title: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Delete Confirmation', 'editorskit-typography-addon'),
+          title: __('Delete Confirmation', 'editorskit-typography-addon'),
           onRequestClose: function onRequestClose() {
             _this5.updateState('isDeleting', false);
           }
-        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", null, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Are you sure you want to delete this item?', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", null, __('Are you sure you want to delete this item?', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isLarge: true,
           isDestructive: true,
           onClick: this.onDelete
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Yes, Delete', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        }, __('Yes, Delete', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isDefault: true,
           onClick: function onClick() {
             _this5.updateState('isDeleting', false);
           }
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('No, Cancel', 'editorskit-typography-addon'))), isSettingDefault && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Modal"], {
+        }, __('No, Cancel', 'editorskit-typography-addon'))), isSettingDefault && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Modal, {
           className: "editorskit-default-typography-modal",
-          title: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Set as Default Fonts', 'editorskit-typography-addon'),
+          title: __('Set as Default Fonts', 'editorskit-typography-addon'),
           onRequestClose: function onRequestClose() {
             _this5.updateState('isSettingDefault', false);
           }
-        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", null, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Setting default typography will save you time when creating new posts or pages.', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", {
+        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", null, __('Setting default typography will save you time when creating new posts or pages.', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", {
           className: "editorskit-notice-box"
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Take note that this option will apply your selected default typography to old posts, post types and pages on your website without the need for you to edit them on the Gutenberg editor manually.', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        }, __('Take note that this option will apply your selected default typography to old posts, post types and pages on your website without the need for you to edit them on the Gutenberg editor manually.', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isLarge: true,
           isPrimary: true,
           onClick: function onClick() {
             _this5.onSetDefault();
           }
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Yes, Set as Default', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        }, __('Yes, Set as Default', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isDefault: true,
           onClick: function onClick() {
             _this5.updateState('isSettingDefault', false);
           }
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('No, Cancel', 'editorskit-typography-addon'))), isRemovingDefault && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Modal"], {
+        }, __('No, Cancel', 'editorskit-typography-addon'))), isRemovingDefault && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Modal, {
           className: "editorskit-default-typography-modal",
-          title: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Remove Default Fonts', 'editorskit-typography-addon'),
+          title: __('Remove Default Fonts', 'editorskit-typography-addon'),
           onRequestClose: function onRequestClose() {
             _this5.updateState('isRemovingDefault', false);
           }
-        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", null, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Are you sure you want to remove this item as default typography?', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("p", null, __('Are you sure you want to remove this item as default typography?', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isLarge: true,
           isPrimary: true,
           onClick: function onClick() {
             _this5.onSetDefault(true);
           }
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Yes, Set Remove Default', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+        }, __('Yes, Set Remove Default', 'editorskit-typography-addon')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
           isDefault: true,
           onClick: function onClick() {
             _this5.updateState('isRemovingDefault', false);
           }
-        }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('No, Cancel', 'editorskit-typography-addon'))));
+        }, __('No, Cancel', 'editorskit-typography-addon'))));
       }
 
-      return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["Fragment"], null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("div", {
+      return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("div", {
         className: "editorskit-typography-custom"
-      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["Button"], {
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
         isDefault: true,
         className: "editorskit-typography-back-btn",
         onClick: function onClick() {
@@ -9943,73 +9917,73 @@ function (_Component) {
             customKey: ''
           });
         }
-      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("span", null, "\u2039 ", Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Back', 'editorskit-typography-addon'), " ")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["TextControl"], {
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("span", null, "\u2039 ", __('Back', 'editorskit-typography-addon'), " ")), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(TextControl, {
         className: "editorskit-typography-custom--name",
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Name', 'editorskit-typography-addon'),
+        label: __('Name', 'editorskit-typography-addon'),
         value: typeof contentCSS.name !== 'undefined' ? contentCSS.name : customKey,
         onChange: function onChange(newName) {
           _this5.createMeta('name', newName);
         }
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["TextControl"], {
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(TextControl, {
         className: "editorskit-typography-custom--key",
         type: "hidden" // value={typeof contentCSS['key'] !== 'undefined' ? contentCSS['font-selected'] : ''}
 
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["PanelBody"], {
-        title: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Content Typography', 'editorskit-typography-addon'),
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(PanelBody, {
+        title: __('Content Typography', 'editorskit-typography-addon'),
         initialOpen: false
-      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Google Fonts', 'editorskit-typography-addon'),
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+        label: __('Google Fonts', 'editorskit-typography-addon'),
         options: selectOptions(),
         value: this.getValue('content', 'font-family'),
         onChange: function onChange(selectedValue) {
           _this5.createMeta('font-family', selectedValue, 'content');
         }
-      }), fontWeightOptions(this.getValue('content', 'font-family')) && fontWeightOptions(this.getValue('content', 'font-family')).length > 1 ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Font Weight', 'editorskit-typography-addon'),
+      }), fontWeightOptions(this.getValue('content', 'font-family')) && fontWeightOptions(this.getValue('content', 'font-family')).length > 1 ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+        label: __('Font Weight', 'editorskit-typography-addon'),
         options: fontWeightOptions(this.getValue('content', 'font-family')),
         value: this.getValue('content', 'font-weight'),
         onChange: function onChange(selectedWeight) {
           _this5.createMeta('font-weight', parseInt(selectedWeight), 'content');
         }
       }) : '', Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Font Size', 'editorskit-typography-addon'),
+        label: __('Font Size', 'editorskit-typography-addon'),
         elementType: "content",
         syntax: "font-size",
         createMeta: this.createMeta,
         value: this.getValue('content', 'font-size'),
         unit: this.getValue('content', 'font-size-unit')
       }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Line Height', 'editorskit-typography-addon'),
+        label: __('Line Height', 'editorskit-typography-addon'),
         elementType: "content",
         syntax: "line-height",
         createMeta: this.createMeta,
         value: this.getValue('content', 'line-height'),
         unit: this.getValue('content', 'line-height-unit')
       }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Letter Spacing', 'editorskit-typography-addon'),
+        label: __('Letter Spacing', 'editorskit-typography-addon'),
         elementType: "content",
         syntax: "letter-spacing",
         createMeta: this.createMeta,
         value: this.getValue('content', 'letter-spacing'),
         unit: this.getValue('content', 'letter-spacing-unit')
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["CheckboxControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Apply Font Family to whole page', 'editorskit-typography-addon'),
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(CheckboxControl, {
+        label: __('Apply Font Family to whole page', 'editorskit-typography-addon'),
         checked: this.getValue('content', 'body') ? true : false,
-        help: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Check this option to apply the selected font family to <body> instead of just content.', 'editorskit-typography-addon'),
+        help: __('Check this option to apply the selected font family to <body> instead of just content.', 'editorskit-typography-addon'),
         onChange: function onChange(selectedTransform) {
           _this5.createMeta('body', selectedTransform, 'content');
         }
-      })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["PanelBody"], {
-        title: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Heading Typography', 'editorskit-typography-addon'),
+      })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(PanelBody, {
+        title: __('Heading Typography', 'editorskit-typography-addon'),
         initialOpen: false
-      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Google Fonts', 'editorskit-typography-addon'),
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+        label: __('Google Fonts', 'editorskit-typography-addon'),
         options: selectOptions(),
         value: this.getValue('heading', 'font-family'),
         onChange: function onChange(selectedValue) {
           _this5.createMeta('font-family', selectedValue, 'heading');
         }
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["TabPanel"], {
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(TabPanel, {
         className: "editorskit-typography-tab-panel",
         activeClass: "active-tab" // onSelect={onSelect}
         ,
@@ -10059,15 +10033,15 @@ function (_Component) {
       }, function (tab) {
         var headingFontName = _this5.getValue('heading', 'font-family');
 
-        return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["Fragment"], null, fontWeightOptions(headingFontName) && fontWeightOptions(headingFontName).length > 1 ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["sprintf"])(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Font Weight (%s)', 'editorskit-typography-addon'), tab.level),
+        return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, fontWeightOptions(headingFontName) && fontWeightOptions(headingFontName).length > 1 ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+          label: sprintf(__('Font Weight (%s)', 'editorskit-typography-addon'), tab.level),
           options: fontWeightOptions(headingFontName),
           value: _this5.getValue('heading', 'font-weight', tab.level),
           onChange: function onChange(selectedTransform) {
             _this5.createMeta('font-weight', parseInt(selectedTransform), 'heading', tab.level);
           }
         }) : '', Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["sprintf"])(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Font Size (%s)', 'editorskit-typography-addon'), tab.level),
+          label: sprintf(__('Font Size (%s)', 'editorskit-typography-addon'), tab.level),
           syntax: "font-size",
           createMeta: _this5.createMeta,
           value: _this5.getValue('heading', 'font-size', tab.level),
@@ -10075,7 +10049,7 @@ function (_Component) {
           elementType: "heading",
           level: tab.level
         }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["sprintf"])(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Line Height (%s)', 'editorskit-typography-addon'), tab.level),
+          label: sprintf(__('Line Height (%s)', 'editorskit-typography-addon'), tab.level),
           syntax: "line-height",
           createMeta: _this5.createMeta,
           value: _this5.getValue('heading', 'line-height', tab.level),
@@ -10083,67 +10057,67 @@ function (_Component) {
           elementType: "heading",
           level: tab.level
         }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["sprintf"])(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Letter Spacing (%s)', 'editorskit-typography-addon'), tab.level),
+          label: sprintf(__('Letter Spacing (%s)', 'editorskit-typography-addon'), tab.level),
           syntax: "letter-spacing",
           createMeta: _this5.createMeta,
           value: _this5.getValue('heading', 'letter-spacing', tab.level),
           unit: _this5.getValue('heading', 'letter-spacing-unit', tab.level),
           elementType: "heading",
           level: tab.level
-        }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["sprintf"])(Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Text Transform (%s)', 'editorskit-typography-addon'), tab.level),
+        }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+          label: sprintf(__('Text Transform (%s)', 'editorskit-typography-addon'), tab.level),
           options: transformOptions(),
           value: _this5.getValue('heading', 'text-transform', tab.level),
           onChange: function onChange(selectedTransform) {
             _this5.createMeta('text-transform', selectedTransform, 'heading', tab.level);
           }
-        }), tab.level === 'H1' ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["CheckboxControl"], {
-          label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Apply to Title', 'editorskit-typography-addon'),
+        }), tab.level === 'H1' ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(CheckboxControl, {
+          label: __('Apply to Title', 'editorskit-typography-addon'),
           checked: _this5.getValue('heading', 'title', tab.level) ? true : false,
           onChange: function onChange(selectedTransform) {
             _this5.createMeta('title', selectedTransform, 'heading', tab.level);
           }
         }) : null);
-      })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["PanelBody"], {
-        title: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Buttons Typography', 'editorskit-typography-addon'),
+      })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(PanelBody, {
+        title: __('Buttons Typography', 'editorskit-typography-addon'),
         initialOpen: false
-      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Google Fonts', 'editorskit-typography-addon'),
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+        label: __('Google Fonts', 'editorskit-typography-addon'),
         options: selectOptions(),
         value: this.getValue('button', 'font-family'),
         onChange: function onChange(selectedValue) {
           _this5.createMeta('font-family', selectedValue, 'button');
         }
-      }), fontWeightOptions(this.getValue('button', 'font-family')) && fontWeightOptions(this.getValue('button', 'font-family')).length > 1 ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Font Weight', 'editorskit-typography-addon'),
+      }), fontWeightOptions(this.getValue('button', 'font-family')) && fontWeightOptions(this.getValue('button', 'font-family')).length > 1 ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+        label: __('Font Weight', 'editorskit-typography-addon'),
         options: fontWeightOptions(this.getValue('button', 'font-family')),
         value: this.getValue('button', 'font-weight'),
         onChange: function onChange(selectedWeight) {
           _this5.createMeta('font-weight', parseInt(selectedWeight), 'button');
         }
       }) : '', Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Font Size', 'editorskit-typography-addon'),
+        label: __('Font Size', 'editorskit-typography-addon'),
         syntax: "font-size",
         createMeta: this.createMeta,
         value: this.getValue('button', 'font-size'),
         unit: this.getValue('button', 'font-size-unit'),
         elementType: "button"
       }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Line Height', 'editorskit-typography-addon'),
+        label: __('Line Height', 'editorskit-typography-addon'),
         syntax: "line-height",
         createMeta: this.createMeta,
         value: this.getValue('button', 'line-height'),
         unit: this.getValue('button', 'line-height-unit'),
         elementType: "button"
       }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_components_unit_control__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Letter Spacing', 'editorskit-typography-addon'),
+        label: __('Letter Spacing', 'editorskit-typography-addon'),
         syntax: "letter-spacing",
         createMeta: this.createMeta,
         value: this.getValue('button', 'letter-spacing'),
         unit: this.getValue('button', 'letter-spacing-unit'),
         elementType: "button"
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_21__["SelectControl"], {
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_18__["__"])('Text Transform', 'editorskit-typography-addon'),
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(SelectControl, {
+        label: __('Text Transform', 'editorskit-typography-addon'),
         options: transformOptions(),
         value: this.getValue('button', 'text-transform'),
         onChange: function onChange(selectedTransform) {
@@ -10154,13 +10128,13 @@ function (_Component) {
   }]);
 
   return TypographySelection;
-}(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["Component"]);
+}(Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_wordpress_compose__WEBPACK_IMPORTED_MODULE_19__["compose"])([Object(_wordpress_data__WEBPACK_IMPORTED_MODULE_20__["withSelect"])(function (select) {
+/* harmony default export */ __webpack_exports__["default"] = (compose([withSelect(function (select) {
   return {
     postmeta: select('core/editor').getEditedPostAttribute('meta')
   };
-}), Object(_wordpress_data__WEBPACK_IMPORTED_MODULE_20__["withDispatch"])(function (dispatch) {
+}), withDispatch(function (dispatch) {
   var _dispatch = dispatch('core/notices'),
       createNotice = _dispatch.createNotice;
 
@@ -10198,7 +10172,7 @@ function (_Component) {
       });
     }
   };
-}), _wordpress_components__WEBPACK_IMPORTED_MODULE_21__["withSpokenMessages"]])(TypographySelection));
+}), withSpokenMessages])(TypographySelection));
 
 /***/ }),
 
@@ -11389,33 +11363,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/@babel/runtime/helpers/slicedToArray.js");
 /* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/asyncToGenerator.js");
-/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _loading__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./loading */ "./src/blocks/shareablock/components/loading.js");
 /* harmony import */ var _downloads__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./downloads */ "./src/blocks/shareablock/components/downloads.js");
 /* harmony import */ var _inspector__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./inspector */ "./src/blocks/shareablock/components/inspector.js");
-/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
-/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @wordpress/compose */ "@wordpress/compose");
-/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_wordpress_compose__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__);
 
 
 
@@ -11427,36 +11395,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-function _createSuper(Derived) {
-  function isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-
-    try {
-      Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-
-  return function () {
-    var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8___default()(Derived),
-        result;
-
-    if (isNativeReflectConstruct()) {
-      var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8___default()(this).constructor;
-
-      result = Reflect.construct(Super, arguments, NewTarget);
-    } else {
-      result = Super.apply(this, arguments);
-    }
-
-    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7___default()(this, result);
-  };
-}
 
 /**
  * Internal dependencies
@@ -11468,10 +11406,15 @@ function _createSuper(Derived) {
  * WordPress dependencies
  */
 
-
-
-
-
+var __ = wp.i18n.__;
+var withInstanceId = wp.compose.withInstanceId;
+var _wp$element = wp.element,
+    Fragment = _wp$element.Fragment,
+    Component = _wp$element.Component;
+var _wp$components = wp.components,
+    Placeholder = _wp$components.Placeholder,
+    TextControl = _wp$components.TextControl,
+    Button = _wp$components.Button;
 /**
  * Get settings.
  */
@@ -11488,16 +11431,14 @@ var apiPath = 'https://shareablock.com/edd-api/my-files';
 var Edit =
 /*#__PURE__*/
 function (_Component) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default()(Edit, _Component);
-
-  var _super = _createSuper(Edit);
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_9___default()(Edit, _Component);
 
   function Edit() {
     var _this;
 
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3___default()(this, Edit);
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_4___default()(this, Edit);
 
-    _this = _super.apply(this, arguments);
+    _this = _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_6___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_7___default()(Edit).apply(this, arguments));
     _this.state = {
       apiKey: '',
       accessToken: '',
@@ -11534,13 +11475,13 @@ function (_Component) {
         });
       }
     });
-    _this.saveApiKey = _this.saveApiKey.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
-    _this.updateApiKey = _this.updateApiKey.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
-    _this.fetchDownloads = _this.fetchDownloads.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this));
+    _this.saveApiKey = _this.saveApiKey.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.updateApiKey = _this.updateApiKey.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
+    _this.fetchDownloads = _this.fetchDownloads.bind(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_8___default()(_this));
     return _this;
   }
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4___default()(Edit, [{
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_5___default()(Edit, [{
     key: "componentDidMount",
     value: function componentDidMount() {}
   }, {
@@ -11620,11 +11561,11 @@ function (_Component) {
       var fetchApi =
       /*#__PURE__*/
       function () {
-        var _ref = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2___default()(
+        var _ref = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3___default()(
         /*#__PURE__*/
-        _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10___default.a.mark(function _callee() {
+        _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee() {
           var response, data;
-          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10___default.a.wrap(function _callee$(_context) {
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -11734,18 +11675,18 @@ function (_Component) {
           filtered = _this$state.filtered,
           hasValidApiKey = _this$state.hasValidApiKey;
       var hasApiKey = attributes.hasApiKey;
-      return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["Fragment"], null, isSelected && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_inspector__WEBPACK_IMPORTED_MODULE_13__["default"], _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({}, this.props, {
+      return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, isSelected && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_inspector__WEBPACK_IMPORTED_MODULE_13__["default"], _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({}, this.props, {
         apiKey: apiKey,
         accessToken: accessToken,
         hasValidApiKey: hasValidApiKey,
         updateApiKeyCallBack: this.updateApiKey
-      })), isLoading ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_loading__WEBPACK_IMPORTED_MODULE_11__["default"], null) : Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__["Placeholder"], {
+      })), isLoading ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_loading__WEBPACK_IMPORTED_MODULE_11__["default"], null) : Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Placeholder, {
         icon: "layout",
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('ShareABlock from EditorsKit', 'block-options'),
-        instructions: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('Insert your downloads from shareablock.com at ease.', 'block-options')
-      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["Fragment"], null, error || hasApiKey && !hasValidApiKey ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])("div", {
+        label: __('ShareABlock from EditorsKit', 'block-options'),
+        instructions: __('Insert your downloads from shareablock.com at ease.', 'block-options')
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, error || hasApiKey && !hasValidApiKey ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])("div", {
         className: "editorskit-inline-error notice-error notice"
-      }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('Invalid API or Access Token.', 'block-options')) : null, isOpen && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_downloads__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, __('Invalid API or Access Token.', 'block-options')) : null, isOpen && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(_downloads__WEBPACK_IMPORTED_MODULE_12__["default"], {
         clientId: this.props.clientId,
         onClose: function onClose() {
           _this5.onClose();
@@ -11758,46 +11699,46 @@ function (_Component) {
         filterDownloads: function filterDownloads(keyword) {
           _this5.filterDownloads(keyword);
         }
-      }), apiKey && accessToken && hasValidApiKey ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["Fragment"], null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__["Button"], {
+      }), apiKey && accessToken && hasValidApiKey ? Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
         isPrimary: true,
         isLarge: true,
         onClick: function onClick() {
           _this5.updateApiKey();
         }
-      }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('View Downloads', 'block-options'))) : Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["Fragment"], null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__["TextControl"], {
+      }, __('View Downloads', 'block-options'))) : Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Fragment, null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(TextControl, {
         value: apiKey,
-        label: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('API Settings', 'block-options'),
-        placeholder: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('Enter Public API Key…', 'block-options'),
+        label: __('API Settings', 'block-options'),
+        placeholder: __('Enter Public API Key…', 'block-options'),
         onChange: function onChange(newKey) {
           _this5.setState({
             apiKey: newKey
           });
         }
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__["TextControl"], {
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(TextControl, {
         value: accessToken,
-        placeholder: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('Enter Access Token…', 'block-options'),
+        placeholder: __('Enter Access Token…', 'block-options'),
         onChange: function onChange(newToken) {
           _this5.setState({
             accessToken: newToken
           });
         }
-      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__["Button"], {
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
         isPrimary: true,
         onClick: function onClick() {
           _this5.updateApiKey();
         }
-      }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('Apply & View Downloads', 'block-options')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_16__["Button"], {
+      }, __('Apply & View Downloads', 'block-options')), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_10__["createElement"])(Button, {
         isTertiary: true,
         href: "https://shareablock.com/generate-api-key/",
         target: "_blank"
-      }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_14__["__"])('Get API Key', 'block-options'))))));
+      }, __('Get API Key', 'block-options'))))));
     }
   }]);
 
   return Edit;
-}(_wordpress_element__WEBPACK_IMPORTED_MODULE_9__["Component"]);
+}(Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_wordpress_compose__WEBPACK_IMPORTED_MODULE_15__["withInstanceId"])(Edit));
+/* harmony default export */ __webpack_exports__["default"] = (withInstanceId(Edit));
 
 /***/ }),
 
@@ -23985,39 +23926,6 @@ registerPlugin('editorskit-empty-to-spacer', {
 
 /***/ }),
 
-/***/ "@wordpress/components":
-/*!*********************************************!*\
-  !*** external {"this":["wp","components"]} ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["components"]; }());
-
-/***/ }),
-
-/***/ "@wordpress/compose":
-/*!******************************************!*\
-  !*** external {"this":["wp","compose"]} ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["compose"]; }());
-
-/***/ }),
-
-/***/ "@wordpress/data":
-/*!***************************************!*\
-  !*** external {"this":["wp","data"]} ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["data"]; }());
-
-/***/ }),
-
 /***/ "@wordpress/element":
 /*!******************************************!*\
   !*** external {"this":["wp","element"]} ***!
@@ -24026,17 +23934,6 @@ registerPlugin('editorskit-empty-to-spacer', {
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["element"]; }());
-
-/***/ }),
-
-/***/ "@wordpress/i18n":
-/*!***************************************!*\
-  !*** external {"this":["wp","i18n"]} ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["i18n"]; }());
 
 /***/ }),
 

@@ -8,10 +8,10 @@ import Inspector from './inspector';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { withInstanceId } from '@wordpress/compose';
-import { Placeholder, TextControl, Button } from '@wordpress/components';
-import { Fragment, Component } from '@wordpress/element';
+const { __ } = wp.i18n;
+const { withInstanceId } = wp.compose;
+const { Fragment, Component } = wp.element;
+const { Placeholder, TextControl, Button } = wp.components;
 
 /**
  * Get settings.
