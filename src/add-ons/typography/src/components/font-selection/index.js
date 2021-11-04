@@ -20,7 +20,6 @@ import { __, sprintf } from '@wordpress/i18n';
 import { compose } from '@wordpress/compose';
 import { withSelect, withDispatch } from '@wordpress/data';
 import { Fragment, Component } from '@wordpress/element';
-
 import { withSpokenMessages, Button, TextControl, PanelBody, SelectControl, TabPanel, CheckboxControl, Modal } from '@wordpress/components';
 
 /**
