@@ -16,11 +16,12 @@ import HeadingLevelIcon from './heading-level-icon';
 /**
  * WordPress dependencies
  */
-const { __, sprintf } = wp.i18n;
-const { compose } = wp.compose;
-const { withSelect, withDispatch } = wp.data;
-const { Fragment, Component } = wp.element;
-const { withSpokenMessages, Button, TextControl, PanelBody, SelectControl, TabPanel, CheckboxControl, Modal } = wp.components;
+import { __, sprintf } from '@wordpress/i18n';
+import { compose } from '@wordpress/compose';
+import { withSelect, withDispatch } from '@wordpress/data';
+import { Fragment, Component } from '@wordpress/element';
+
+import { withSpokenMessages, Button, TextControl, PanelBody, SelectControl, TabPanel, CheckboxControl, Modal } from '@wordpress/components';
 
 /**
  * Get settings.
