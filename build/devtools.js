@@ -86,24 +86,43 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+
+  return arr2;
+}
+
+module.exports = _arrayLikeToArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
 /*!******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
   \******************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
 
 function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
+  if (Array.isArray(arr)) return arrayLikeToArray(arr);
 }
 
 module.exports = _arrayWithoutHoles;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -130,6 +149,7 @@ function _defineProperty(obj, key, value) {
 }
 
 module.exports = _defineProperty;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -141,10 +161,11 @@ module.exports = _defineProperty;
 /***/ (function(module, exports) {
 
 function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
 }
 
 module.exports = _iterableToArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -156,10 +177,11 @@ module.exports = _iterableToArray;
 /***/ (function(module, exports) {
 
 function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 
 module.exports = _nonIterableSpread;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -170,17 +192,43 @@ module.exports = _nonIterableSpread;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
+var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles.js */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
 
-var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
+var iterableToArray = __webpack_require__(/*! ./iterableToArray.js */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
 
-var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
+var unsupportedIterableToArray = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js");
+
+var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread.js */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
 
 function _toConsumableArray(arr) {
-  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();
 }
 
 module.exports = _toConsumableArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return arrayLikeToArray(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);
+}
+
+module.exports = _unsupportedIterableToArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1457,7 +1505,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -1469,12 +1517,17 @@ var defaultProps = {
   p: 1,
   avgWordsPerSentence: 8,
   avgSentencesPerParagraph: 8,
-  startWithLoremIpsum: true
+  startWithLoremIpsum: true,
+  random: true
 };
 var stDevPercentage = 0.25;
 
-var createWord = function createWord() {
+var getRandomWord = function getRandomWord() {
   return _words["default"][(0, _utils.randomFromRange)(0, _words["default"].length - 1)];
+};
+
+var getWord = function getWord(i) {
+  return _words["default"][i % _words["default"].length];
 };
 
 var midPunctuation = function midPunctuation(sentenceLength) {
@@ -1515,18 +1568,38 @@ var createSentence = function createSentence(_ref) {
   var sentence = '';
 
   for (var i = 0; i < sentenceLength; i += 1) {
-    sentence += "".concat(createWord()).concat(midPunc.position === i ? midPunc.punctuation : '', " ");
+    sentence += "".concat(getRandomWord()).concat(midPunc.position === i ? midPunc.punctuation : '', " ");
   }
 
   sentence = "".concat(sentence.charAt(0).toUpperCase() + sentence.substr(1).trim()).concat(endPunctuation());
   return sentence;
 };
 
-var createParagraph = function createParagraph(_ref2) {
-  var firstParagraph = _ref2.firstParagraph,
-      avgWordsPerSentence = _ref2.avgWordsPerSentence,
-      avgSentencesPerParagraph = _ref2.avgSentencesPerParagraph,
-      startWithLoremIpsum = _ref2.startWithLoremIpsum;
+var createStandardParagraph = function createStandardParagraph(_ref2) {
+  var avgWordsPerSentence = _ref2.avgWordsPerSentence,
+      avgSentencesPerParagraph = _ref2.avgSentencesPerParagraph;
+  var paragraph = '';
+  var awps = (0, _utils.parseIntWithDefault)(avgWordsPerSentence, defaultProps.avgWordsPerSentence);
+  var aspp = (0, _utils.parseIntWithDefault)(avgSentencesPerParagraph, defaultProps.avgSentencesPerParagraph);
+
+  for (var i = 0; i < aspp; i += 1) {
+    var sentence = '';
+
+    for (var j = 0; j < awps; j += 1) {
+      sentence += "".concat(getWord(i * aspp + j), " ");
+    }
+
+    paragraph += "".concat(sentence.charAt(0).toUpperCase() + sentence.slice(1).trim(), ". ");
+  }
+
+  return paragraph.trim();
+};
+
+var createRandomParagraph = function createRandomParagraph(_ref3) {
+  var firstParagraph = _ref3.firstParagraph,
+      avgWordsPerSentence = _ref3.avgWordsPerSentence,
+      avgSentencesPerParagraph = _ref3.avgSentencesPerParagraph,
+      startWithLoremIpsum = _ref3.startWithLoremIpsum;
   var aspp = (0, _utils.parseIntWithDefault)(avgSentencesPerParagraph, defaultProps.avgSentencesPerParagraph);
   var swli = typeof startWithLoremIpsum === 'boolean' ? startWithLoremIpsum : defaultProps.startWithLoremIpsum;
   var stDev = (0, _utils.getStandardDeviation)(aspp, stDevPercentage);
@@ -1548,27 +1621,29 @@ var loremIpsum = function loremIpsum() {
   var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
   var p = props.p,
-      otherProps = _objectWithoutProperties(props, ["p"]);
+      random = props.random,
+      otherProps = _objectWithoutProperties(props, ["p", "random"]);
 
   var pCount = (0, _utils.parseIntWithDefault)(p, defaultProps.p);
-  var paragraphs = [];
-
-  for (var i = 0; i < pCount; i += 1) {
-    paragraphs.push(createParagraph(_objectSpread({
+  var createParagraph = random ? createRandomParagraph : createStandardParagraph;
+  return Array.from({
+    length: pCount
+  }, function (_, i) {
+    return i;
+  }).map(function (_, i) {
+    return createParagraph(_objectSpread({
       firstParagraph: i === 0
-    }, otherProps)));
-  }
-
-  return paragraphs;
+    }, otherProps));
+  });
 };
 
 exports.loremIpsum = loremIpsum;
 
 var LoremIpsum = function LoremIpsum(props) {
   var paragraphs = loremIpsum(props);
-  var html = paragraphs.map(function (paragraph) {
+  var html = paragraphs.map(function (paragraph, index) {
     return _react["default"].createElement("p", {
-      key: paragraph
+      key: index
     }, paragraph);
   });
   return html;
@@ -1579,14 +1654,10 @@ LoremIpsum.propTypes = {
   p: _propTypes["default"].oneOfType([_propTypes["default"].number, _propTypes["default"].string]),
   avgWordsPerSentence: _propTypes["default"].oneOfType([_propTypes["default"].number, _propTypes["default"].string]),
   avgSentencesPerParagraph: _propTypes["default"].oneOfType([_propTypes["default"].number, _propTypes["default"].string]),
-  startWithLoremIpsum: _propTypes["default"].bool
+  startWithLoremIpsum: _propTypes["default"].bool,
+  random: _propTypes["default"].bool
 };
-LoremIpsum.defaultProps = {
-  p: defaultProps.p,
-  avgWordsPerSentence: defaultProps.avgWordsPerSentence,
-  avgSentencesPerParagraph: defaultProps.avgSentencesPerParagraph,
-  startWithLoremIpsum: defaultProps.startWithLoremIpsum
-};
+LoremIpsum.defaultProps = defaultProps;
 
 /***/ }),
 
@@ -1637,15 +1708,15 @@ var Avatar = function Avatar(_ref) {
 
   return _react["default"].createElement("img", _extends({
     src: getRandomAvatar()
-  }, otherProps));
+  }, otherProps, {
+    alt: "Avatar"
+  }));
 };
 
 Avatar.propTypes = {
   gender: _propTypes["default"].string
 };
-Avatar.defaultProps = {
-  gender: defaultProps.gender
-};
+Avatar.defaultProps = defaultProps;
 var _default = Avatar;
 exports["default"] = _default;
 
