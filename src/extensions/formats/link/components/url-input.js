@@ -14,7 +14,7 @@ const { decodeEntities } = wp.htmlEntities;
 const { UP, DOWN, ENTER, TAB } = wp.keycodes;
 const { Spinner, withSpokenMessages, Popover } = wp.components;
 const { withInstanceId } = wp.compose;
-const apiFetch = wp.apiFetch;
+const apiFetch = '@wordpress/api-fetch';
 const { addQueryArgs } = wp.url;
 
 // Since URLInput is rendered in the context of other inputs, but should be
